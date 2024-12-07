@@ -12,7 +12,10 @@ export default function Home() {
             - Export as CSV ?
             - Draggable
             */}
-
+            <div className="top-section">
+                <div className="search-container">Search</div>
+                <div className="add-container">+</div>
+            </div>
         </div>
     );
 }

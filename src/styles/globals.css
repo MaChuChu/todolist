@@ -33,3 +33,34 @@ main {
 footer {
   bottom: 0;
 }
+
+/*****************************************************/
+
+.top-section {
+  width: 800px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: relative;
+}
+
+.search-container {
+  width: 80%;
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  width: 20%;
+  position: absolute;
+  right: 0;
+  background-color: black;
+}
