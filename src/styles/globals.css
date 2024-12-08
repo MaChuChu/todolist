@@ -122,22 +122,11 @@ footer {
   gap: 10px;
 }
 
-.text-container h1,
-.text-container h2,
-.text-container p {
-  padding: 10px;
+.text-container input,
+.text-container textarea {
+  padding: 8px 12px;
+  font-size: larger;
   border-radius: 4px;
-  background-color: white;
-  color: black;
-}
-
-.text-container p {
-  height: 300px;
-  width: inherit;
-  word-wrap: break-word;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  overflow-y: scroll;
 }
 
 /*****************************************************/
@@ -188,4 +177,14 @@ footer {
   justify-content: center;
   align-items: center;
   margin-left: auto;
+}
+
+/* Buttons */
+.back-button:hover,
+.remove-button:hover,
+.change-button:hover,
+.add-container:hover {
+  filter: brightness(0.8);
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
 }
